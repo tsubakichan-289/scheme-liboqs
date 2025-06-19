@@ -10,7 +10,7 @@
 
 
   (define kem-alg-count
-    (foreign-lambda* int ((void)) "return OQS_KEM_alg_count();"))
+    (foreign-lambda* int () "return OQS_KEM_alg_count();"))
 
   (define kem-alg-identifier
     (foreign-lambda* c-string ((size_t i)) "return OQS_KEM_alg_identifier(i);"))
