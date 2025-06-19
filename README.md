@@ -4,6 +4,8 @@ This project provides a simple Chicken Scheme wrapper for the
 [liboqs](https://github.com/open-quantum-safe/liboqs) C library.  The wrapper
 allows direct invocation of liboqs functions from Scheme using the native FFI.
 
+This project is licensed under the MIT License; see the [LICENSE](LICENSE) file for details.
+
 ## Building liboqs
 
 liboqs is not included in this repository.  Obtain and build the library
